@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="bg-red-500 w-full">
         Components-1
 
@@ -29,4 +29,4 @@ const mainusComponent = () => {
 
 }
 
-</script>
+</script> -->

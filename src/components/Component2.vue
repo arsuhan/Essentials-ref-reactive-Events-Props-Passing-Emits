@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 
 const props = defineProps(['inputProps'])
 const emit = defineEmits(['clearEmit'])
@@ -10,4 +10,4 @@ const emit = defineEmits(['clearEmit'])
         <p>{{ inputProps }}</p>
         <button class="bg-red-300 p-2" @click="$emit('clearEmit')">clear</button>
     </div>
-</template>
+</template> -->
