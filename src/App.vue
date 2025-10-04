@@ -1,13 +1,8 @@
 <script setup>
 import { RouterView } from "vue-router";
-// import Component1 from "./components/Component1.vue";
-// import Component2 from "./components/Component2.vue";
 import { ref, reactive } from "vue";
 import Handlr1 from "./views/handlr1.vue";
 import Handlr2 from "./views/Handlr2.vue";
-// import { stat } from "node:fs/promises";
-
-// start views
 
 const number = ref(0);
 
@@ -67,6 +62,7 @@ const mainus = () => {
     <Handlr2 :inputProps="state.formValue" @clear-emit="clear" />
   </div>
 
+    <RouterView />
 </template>
 
 <style scoped></style>
